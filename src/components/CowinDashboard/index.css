@@ -1,0 +1,48 @@
+/* Write your CSS here */
+@media screen and (min-width: 1200px) {
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #161625;
+    padding: 20px 60px;
+  }
+  .logo-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .logo-img {
+    height: 30px;
+    width: 30px;
+  }
+  .logo-heading {
+    color: #2cc6c6;
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  .heading {
+    color: #cbd5e1;
+    font-size: 20px;
+  }
+  .failure-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .loader-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .failure-img {
+    height: 400px;
+    width: 500px;
+  }
+  .fail-msg {
+    font-family: bree serif;
+    color: #fff;
+  }
+}
